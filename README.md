@@ -93,6 +93,28 @@ We did an example of implementing `CashRegister` class. Suppose the CashRegister
 - Run the `cashregister_tester.py` script.
 - Take a clear screenshot of undo() method, main() from `cashregister_tester.py` and the output. Add this screenshot in the pdf.
 
+## lab8d - class Car & class GasTank
+### Creating relationships between nested objects to produce simulated object behaviour
+
+- Open the `gas_tank.py` file and review its contents
+- Create a new file called `car.py`
+    - Create a class called Car
+    - Create a constructor function that initializes an instanced GasTank object
+    - Create a new function called `drive` that prints out a message `Vroom Vroom` and consumes fuel every time it is called. 
+    - If the car's gas tank no longer has fuel, it should instead print out `Out of gas` instead.   
+- Create a new file called `car_sim.py`    
+    - Create a new `car` object 
+    - Create a loop that continue until the user types `exit`
+    - When the user types `drive` call your car object's `drive` function
+    - When the user types `refuel` call the `refuel` function from the car objects gas tank.
+- Test your program and validate the following:
+    - Car object is succesfully created.
+    - User can provide input to call Car's `drive` function
+    - User can provide input to call the Car's GasTank `refuel` function
+    - Car can run out of gas
+    - User can exit the simulation with the `exit` command. 
+    
+
 
 ## Lab 8 Sign-Off
 - Submit the pdf including the  above mentioned screenshots.

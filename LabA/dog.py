@@ -18,7 +18,7 @@ class Dog:
         # self.variable_name makes sure that variable is created for the specific object.
         self.dog_name = dog_name  # dog_name is being assigned the value name passed as parameter
         
-        self.dog_breed =dog_breed  # _breed is being assigned the value breed passed as parameter
+        self.dog_breed = dog_breed  # _breed is being assigned the value breed passed as parameter
 
     def bark(self):
         # each class method can access instance variables.

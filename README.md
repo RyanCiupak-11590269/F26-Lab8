@@ -59,7 +59,7 @@ print(my_dog.bark())  # Output: Buddy says woof!
 - The class dog has been imported.
 - Create a new object of the `class Dog` inside `main()` function.
 - Call the bark method for the object.
-- Run the file using the command: `python ./dog_tester.py`.
+- Run the `dog_tester.py` script.
 - Take a clear screenshot of the `main()` from `dog_tester.py` and the output. Add this screenshot in the pdf.
 
 ## lab8b - class Cylinder
@@ -71,10 +71,10 @@ print(my_dog.bark())  # Output: Buddy says woof!
 - Add comments in `cylinder_tester.py` to explain the purpose of this file.
 - Import `class Cylinder` in the `cylinder_tester.py`.
 - Create the `main()` function.
-- Create a class object.
+- Create a Cylinder object.
 - Call both class methods.
 - Print the output.
-- Run the script from command line using the command: `python ./cylinder_tester.py`.
+- Run the `cylinder_tester.py` script.
 - Take a clear screenshot of volume() method, `main()` form `cylinder_tester.py` and the output. Add this screenshot in the pdf.
 
 
@@ -82,14 +82,15 @@ print(my_dog.bark())  # Output: Buddy says woof!
 ### Adding instance variable and class method in an existing class to extend the functionality
 
 We did an example of implementing `CashRegister` class. Suppose the CashRegister needs to support a method undo() that undoes the addition of the preceding item. This enables a cashier to quickly undo a mistake. 
-
-- Complete the undo function in `cashregister.py` according to the instructions given.
+  
+- Complete the undo function in `cashregister.py`.  
+- You can achieve this by keeping a record of the items you add in the `addItem` function
 - Create a new file called `cashregister_tester.py`
 - Add comments in `cashregister_tester.py` to explain the purpose of this file.
 - Import `class CashRegister` in the `cashregister_tester.py`.
 - Add main() function in the `cashregister_tester.py`.
 - Test the undo functionality by creating an object of the class and calling the necessary methods inside main() and then calling the main().
-- Run the script from command line using the command: `python ./cashregister_tester.py`.
+- Run the `cashregister_tester.py` script.
 - Take a clear screenshot of undo() method, main() from `cashregister_tester.py` and the output. Add this screenshot in the pdf.
 
 

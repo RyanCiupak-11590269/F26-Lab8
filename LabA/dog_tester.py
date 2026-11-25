@@ -2,7 +2,7 @@
 # Purpose: 
 
 # import the Dog class from dog file
-from dog import Dog
+from LabA.dog import Dog
 def main():
     #TO-DO:
     # Create an object of the Dog class, pass appripate attributes values.

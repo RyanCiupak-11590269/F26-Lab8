@@ -11,11 +11,13 @@ class CashRegister:
     def __init__(self):
         self._itemCount = 0
         self._totalPrice = 0.0
+        self._lastItemPrice = 0.0
         #add an instance variable that you might need to implement undo() method
               
     def addItem(self, price):
         self._itemCount = self._itemCount + 1
         self._totalPrice = self._totalPrice + price
+        self._lastItemPrice = price
         
     def getTotal(self):
         return self._totalPrice
@@ -29,6 +31,7 @@ class CashRegister:
         
     #complete the following undo() method
     def undo(self):
-        pass
+        self._itemCount -= 1
+        self._totalPrice = self._totalPrice - self._lastItemPrice
         
 
